@@ -1,40 +1,21 @@
-# create-svelte
+# svelte-gallery-app
+SvelteKit, OMDb API, Netlify의 Serverless 함수 간 통신을 이용하여 만든 [영화 검색 애플리케이션](https://kit.arong.bar/) 입니다.
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+## Specs
++ [SvelteKit](https://kit.svelte.dev/)
++ [OMDb API](https://omdbapi.com/)
++ [Netlify Serverless Functions](https://docs.netlify.com/functions/overview/)
++ [Lorem Picsum API](https://picsum.photos/)
 
-## Creating a project
+## Packages
++ SvelteKit: Svelte API를 사용하기 위한 핵심 패키지입니다.
++ autoprefixer: CSS에 자동으로 공급 업체 접두사(Vendor prefix)를 적용합니다.
++ postcss: CSS 후처리 패키지로 autoprefixer를 사용하기 위해 설치합니다.
++ axios: HTTP 클라이언트 라이브러리로, OMDb API를 통해 영화 정보를 요청하기 위해 사용합니다.
++ qs: 쿼리스트링(Query String)을 분석하는 라이브러리입니다.
 
-If you're seeing this, you've probably already done this step. Congrats!
-
-```bash
-# create a new project in the current directory
-npm init svelte@next
-
-# create a new project in my-app
-npm init svelte@next my-app
+## Build Setup
+> 프로젝트 시작 전 패키지 설치
 ```
-
-> Note: the `@next` is temporary
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
+npm i
 ```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
