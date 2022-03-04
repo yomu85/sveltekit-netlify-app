@@ -1,5 +1,9 @@
 # svelte-netlify-app
-SSR을 지원하는 sveltekit 프레임워크에서 OMDb API, Netlify의 Serverless 함수를 이용하여 만든 [영화 검색 애플리케이션](https://kit.arong.bar/) 입니다.
+로컬 및 서버의 환경 변수를 구성하고, OMDb API를 통해 Netlify의 Serverless Functions에서 영화 정보 반환 API를 만들어 
+통신하는 [영화 검색 애플리케이션](https://kit.arong.bar/) 입니다.
+code splitting과 SSR을 지원하는 sveltekit 기반으로 만들었습니다.
+
+, Netlify의 Serverless 함수를 이용하여 
 
 ## Specs
 + [Svelte](https://svelte.dev/)
