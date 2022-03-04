@@ -1,5 +1,5 @@
 # svelte-gallery-app
-SvelteKit로 SSR OMDb API, Netlify의 Serverless 함수 간 통신을 이용하여 만든 [영화 검색 애플리케이션](https://kit.arong.bar/) 입니다.
+SSR을 지원하는 sveltekit 프레임워크에서 OMDb API, Netlify의 Serverless 함수를 이용하여 만든 [영화 검색 애플리케이션](https://kit.arong.bar/) 입니다.
 
 ## Specs
 + [SvelteKit](https://kit.svelte.dev/)
