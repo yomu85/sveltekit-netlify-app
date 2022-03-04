@@ -12,7 +12,7 @@
 </script>
 
 <svelte:head>
-  <title>ABOUT</title>
+  <title>ABOUT | SvelteKit Movie App</title>
 </svelte:head>
 
 <div class="user-profile" in:fade>

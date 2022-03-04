@@ -8,7 +8,7 @@
 </script>
 
 <svelte:head>
-  <title>HOME</title>
+  <title>HOME | SvelteKit Movie App</title>
 </svelte:head>
 
 <div class="container" in:fade>

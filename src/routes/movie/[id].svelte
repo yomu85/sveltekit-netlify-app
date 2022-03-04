@@ -20,7 +20,7 @@
 </script>
 
 <svelte:head>
-  <title>MOVIE</title>
+  <title>MOVIE | SvelteKit Movie App</title>
 </svelte:head>
 
 <div class="container" in:fade>
