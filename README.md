@@ -2,10 +2,10 @@
 SSR을 지원하는 sveltekit 프레임워크에서 OMDb API, Netlify의 Serverless 함수를 이용하여 만든 [영화 검색 애플리케이션](https://kit.arong.bar/) 입니다.
 
 ## Specs
++ [Svelte](https://svelte.dev/)
 + [SvelteKit](https://kit.svelte.dev/)
 + [OMDb API](https://omdbapi.com/)
 + [Netlify Serverless Functions](https://docs.netlify.com/functions/overview/)
-+ [Svelte](https://svelte.dev/)
 
 ## Packages
 + svelteKit: 고성능 웹 앱을 구축하기 위한 프레임워크이고, SSR을 지원합니다.
