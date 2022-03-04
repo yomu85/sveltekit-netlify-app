@@ -15,8 +15,17 @@ function babelOptions() {
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
 	kit: {
-		adapter: adapter()
-	},
+    adapter: adapter(),
+    outDir: '.svelte-kit',
+    prerender: {
+      concurrency: 1,
+      crawl: true,
+      enabled: true,
+      entries: ['*'],
+      onError: 'fail'
+    },
+		vite: () => ({})
+  },
 	preprocess: preprocess({
 		postcss: {
 			plugins: [
