@@ -1,5 +1,6 @@
 # svelte-netlify-app
-로컬 및 서버의 환경 변수를 구성하고, OMDb API와 통신하여 Netlify의 Serverless Functions에서 영화 정보 반환 API를 구성하였습니다.  
+로컬 및 서버의 환경 변수를 구성하고, OMDb API와 통신하여  
+Netlify의 Serverless Functions에서 영화 정보 반환 API를 구성하였습니다.  
 code splitting과 SSR을 지원하는 sveltekit 기반 만든 [영화 검색 애플리케이션](https://kit.arong.bar/) 입니다.
 
 ## Specs
