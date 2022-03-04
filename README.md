@@ -5,6 +5,7 @@ SSR을 지원하는 sveltekit 프레임워크에서 OMDb API, Netlify의 Serverl
 + [SvelteKit](https://kit.svelte.dev/)
 + [OMDb API](https://omdbapi.com/)
 + [Netlify Serverless Functions](https://docs.netlify.com/functions/overview/)
++ [Svelte](https://svelte.dev/)
 
 ## Packages
 + svelteKit: 고성능 웹 앱을 구축하기 위한 프레임워크이고, SSR을 지원합니다.
