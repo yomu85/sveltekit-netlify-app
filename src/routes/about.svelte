@@ -6,7 +6,7 @@
   $: urlQuery = $page.url.search.replace(/\?/g, '')
   $: query = qs.parse(urlQuery)
   $: name = query.name || 'GitHub Repo.'
-  $: blog = query.blog || 'https://github.com/yomu85/sveltekit-movie-app'
+  $: blog = query.blog || 'https://github.com/yomu85/sveltekit-netlify-app'
   $: email = query.email || 'yomu85@gmail.com'
   $: image = query.image || '/assets/github2.png'
 </script>

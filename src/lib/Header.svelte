@@ -17,7 +17,7 @@
     class="user"
     on:click={event=> {
       console.log(event)
-      goto('/about?name=Netlify&blog=https%3A%2F%2Fsveltekit.arong.bar&image=%2Fassets%2Fnetlify.png')
+      goto('/about?name=Netlify&blog=https%3A%2F%2Fkit.arong.bar&image=%2Fassets%2Fnetlify.png')
     }}>
     <img src="/assets/svelte.png" alt="user">
   </div>
