@@ -1,7 +1,7 @@
 # svelte-netlify-app
 로컬 및 서버의 환경 변수를 구성하고, OMDb API와 통신하여  
 Netlify의 Serverless Functions에서 영화 정보 반환 API를 구성하였습니다.  
-code splitting과 SSR을 지원하는 sveltekit 기반 만든 [영화 검색 애플리케이션](https://kit.arong.bar/) 입니다.
+SPA개발에 사용되는 svelte 기반의 SSR 프레임워크인 sveltekit로 [영화 검색 애플리케이션](https://kit.arong.bar/) 만들었습니다.
 
 ## Specs
 + [Svelte](https://svelte.dev/)
@@ -10,7 +10,7 @@ code splitting과 SSR을 지원하는 sveltekit 기반 만든 [영화 검색 애
 + [Netlify Serverless Functions](https://docs.netlify.com/functions/overview/)
 
 ## Packages
-+ svelteKit: 고성능 웹 앱을 구축하기 위한 프레임워크이고, SSR을 지원합니다.
++ svelteKit: code splitting등 고성능 웹 앱을 구축하기 위한 프레임워크이고, SSR을 지원합니다.
 + svelte: Svelte API를 사용하기 위한 핵심 패키지입니다.
 + autoprefixer: CSS에 자동으로 공급 업체 접두사(Vendor prefix)를 적용합니다.
 + axios: HTTP 클라이언트 라이브러리로, OMDb API를 통해 영화 정보를 요청하기 위해 사용합니다.
