@@ -23,9 +23,3 @@ SPA 개발에 사용되는 svelte 기반의 SSR 프레임워크인 sveltekit로 
 + qs: 쿼리스트링(Query String)을 분석하는 라이브러리입니다.
 + sass: scss파일을 CSS로 컴파일해주는 도구입니다.
 + svelte-preprocess: Babel, PostCss, Sass(Scss) 등 전/후 처리기들을 지원합니다.
-
-## Build Setup
-> 프로젝트 시작 전 패키지 설치
-```
-npm i
-```
