@@ -7,8 +7,10 @@ SPA 개발에 사용되는 svelte 기반의 SSR 프레임워크인 sveltekit로 
 + [Svelte](https://svelte.dev/)
 + [SvelteKit](https://kit.svelte.dev/)
 + [OMDb API](https://omdbapi.com/)
-+ [Netlify Serverless Functions](https://docs.netlify.com/functions/overview/)
-
++ [Netlify](https://www.netlify.com/)
+  + [Hosting with GitHub(Continuous Deployment)](https://docs.netlify.com/site-deploys/create-deploys/)
+  + [Netlify Serverless Functions](https://docs.netlify.com/functions/overview/)
+  
 ## Packages
 + svelteKit: code splitting등 고성능 웹 앱을 구축하기 위한 프레임워크이고, SSR을 지원합니다.
 + svelte: Svelte API를 사용하기 위한 핵심 패키지입니다.
