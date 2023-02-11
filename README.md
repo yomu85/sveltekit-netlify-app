@@ -1,7 +1,7 @@
 # sveltekit-netlify-app
 로컬 및 서버의 환경 변수를 구성하고, OMDb API와 통신하여  
 Netlify의 Serverless Functions에서 영화 정보 반환 API를 구성하였습니다.  
-SPA 개발에 사용되는 svelte 기반의 SSR 프레임워크인 sveltekit로 [영화 검색 애플리케이션](https://kit.arong.bar/) 만들었습니다.
+SPA 개발에 사용되는 svelte 기반의 SSR 프레임워크인 sveltekit로 [영화 검색 애플리케이션](https://movie.arong.day/) 만들었습니다.
 
 ## Specs
 + [Svelte](https://svelte.dev/)
