@@ -5,10 +5,10 @@
 
   $: urlQuery = $page.url.search.replace(/\?/g, '')
   $: query = qs.parse(urlQuery)
-  $: name = query.name || 'GitHub Repo.'
+  $: name = query.name || 'Netlify'
   $: blog = query.blog || 'https://github.com/yomu85/sveltekit-netlify-app'
   $: email = query.email || 'yomu85@gmail.com'
-  $: image = query.image || '/assets/github2.png'
+  $: image = query.image || '/assets/netlify.png'
 </script>
 
 <svelte:head>
