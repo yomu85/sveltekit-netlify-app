@@ -9,7 +9,7 @@
       The OMDb API is a RESTful web service to obtain movie information, all content and images on the site are contributed and maintained by our users.
     </p>
     <p>
-      <span class="point">lion, frozen 등 과같이 영화 제목 키워드를 검색하세요</span>
+      <span class="point">lion, frozen 등 과같이 영문 키워드로 영화 제목을 검색하세요.</span>
     </p>
   </div>
 </div>
