@@ -16,7 +16,7 @@
   <div 
     class="user"
     on:click={event=> {
-      goto('/about?name=GitHub%20Repo.&image=%2Fassets%2Fgithub2.png')
+      goto('/about?name=GitHub%20Repo.&blog=https%3A%2F%2Fgithub.com%2Fyomu85%2Fsveltekit-netlify-app&image=%2Fassets%2Fgithub2.png')
     }}>
     <img src="/assets/svelte.png" alt="user">
   </div>
