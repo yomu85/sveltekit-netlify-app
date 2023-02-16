@@ -5,8 +5,8 @@
 
   $: urlQuery = $page.url.search.replace(/\?/g, '')
   $: query = qs.parse(urlQuery)
-  $: name = query.name || 'Netlify'
-  $: blog = query.blog || 'https://github.com/yomu85/sveltekit-netlify-app'
+  $: name = query.name || 'ARONGDAY'
+  $: blog = query.blog || 'https://arong.day'
   $: email = query.email || 'yomu85@gmail.com'
   $: image = query.image || '/assets/netlify.png'
 </script>
